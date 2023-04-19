@@ -1,4 +1,4 @@
-# Kernel-Module
+# Kernel-Module 💻
 **This is a simple Linux kernel module written in C programming language that lists all the currently running processes in the system and their corresponding states.**
 
 ## How to run the kernel code?
@@ -65,4 +65,5 @@ sudo rmmod main
 - The module is licensed under the GPL, has a description and author information, and specifies the entry and exit points of the module using the module_init and module_exit macros.
 
 <hr>
-#### Thank You. Enjoy coding! (Feel free to create issues and PR's if you want to make any changes.)
+
+#### Thank You 🙌🏻. Enjoy coding! (Feel free to create issues and PR's if you want to make any changes.)
