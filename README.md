@@ -52,7 +52,16 @@ sudo rmmod main
 <img src="https://github.com/Sohoxic/Kernel-Module/blob/main/assets/images/rmmod.png">
 
 
+## Code Explanation
 
+- The module first includes the necessary header files, which contain definitions of various data structures and functions used in the module.
 
+- The get_task_state function takes a process state as an argument and returns a string representation of that state. It does this by using a switch statement to match the state with one of the pre-defined constants, and returns a string representation of that constant. If the state is not recognized, it generates an "Unknown Type" message and returns it in the buffer.
 
+- The test_tasks_init function is the entry point for the module, which is called when the module is loaded. It declares a pointer to the task_struct data structure, which represents a process in the Linux kernel. It then iterates over all processes in the system using the for_each_process macro, which iterates over a linked list of processes. For each process, it prints the process name, process ID, and process state by calling the pr_info function. Finally, it prints the total number of processes found.
 
+- The test_tasks_exit function is the exit point for the module, which is called when the module is unloaded. It simply prints a message indicating that the module is being unloaded.
+
+- The module is licensed under the GPL, has a description and author information, and specifies the entry and exit points of the module using the module_init and module_exit macros.
+
+Thank You. Enjoy coding!
