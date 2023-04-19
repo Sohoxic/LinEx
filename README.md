@@ -1,4 +1,4 @@
-# Kernel-Module 💻
+# 💻 Kernel-Module 
 **This is a simple Linux kernel module written in C programming language that lists all the currently running processes in the system and their corresponding states.**
 
 ## How to run the kernel code?
