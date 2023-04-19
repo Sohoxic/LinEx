@@ -3,7 +3,7 @@
 
 ## How to run the kernel code?
 
-**0.** Execute the following command to install all the header files and dependencies. 
+**0.** Execute the following command to install all the header files and dependencies required for the kernel module. 
 
 ```
 sudo apt-get install build-essential linux-headers-$(uname -r)
