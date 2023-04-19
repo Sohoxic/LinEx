@@ -25,7 +25,7 @@ make
 **2.** Insert module into the kernel using `insmod`.
 
 ```
-sudo insmod make.ko
+sudo insmod main.ko
 ```
 
 <img src="https://github.com/Sohoxic/Kernel-Module/blob/main/assets/images/insmod.png">
