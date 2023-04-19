@@ -3,6 +3,12 @@
 
 ## How to run the kernel code?
 
+**0.** Execute the following command to install all the header files and dependencies. 
+
+```
+sudo apt-get install build-essential linux-headers-$(uname -r)
+```
+
 **1.** Execute the `make` command to create the `.ko` file along with other files.<br> [P.S: The makefile and the main.c file should be in the same directory(at the same directory level]
 
 ```
