@@ -13,7 +13,7 @@ sudo apt-get install build-essential linux-headers-$(uname -r)
 
 <br>
 
-**1.** Execute the `make` command to create the `.ko` file along with other files.<br> [P.S: The makefile and the main.c file should be in the same directory(at the same directory level]
+**1.** Execute the `make` command to create the `.ko` file along with other files.<br> [P.S: The makefile and the main.c file should be in the same directory(at the same directory level)]
 
 ```
 make  
@@ -31,7 +31,7 @@ sudo insmod main.ko
 <img src="https://github.com/Sohoxic/Kernel-Module/blob/main/assets/images/insmod.png">
 <br>
 
-**3.** To check if the kernel module is inserted into the kernel at runtime execute the `lsmod` command(you can see the main module at the top.)
+**3.** To check if the kernel module is inserted into the kernel at runtime execute the `lsmod` command. This shows which loadable kernel modules are currently loaded(we can see the main module at the top.)
 
 ```
 lsmod
